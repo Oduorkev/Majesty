@@ -120,7 +120,7 @@ session_start();
 <?php endif; ?>
 
 <div class="register-container">
-    <h2>Register</h2>
+    <h2>CREATE AN ACCOUNT WITH US</h2>
     <form action="register_process.php" method="post" id="registrationForm">
         <div class="form-group">
             <label for="firstname">First Name:</label>

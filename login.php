@@ -112,7 +112,7 @@
 <?php endif; ?>
 
 <div class="login-container">
-    <h2>Login</h2>
+    <h2>LOGIN TO YOUR ACCOUNT</h2>
     <form action="login_process.php" method="post" id="loginForm">
         <div class="form-group">
             <label for="email">Email:</label>
