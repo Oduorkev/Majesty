@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 
+/* Responsive design for screens smaller than 600px */
+@media (max-width: 600px) {
+  .form-group-container {
+      display: block; /* Stack items vertically */
+  }
+  .form-group-container input {
+      width: 100%; /* Full width on small screens */
+      margin-bottom: 10px; /* Add spacing for better UX */
+  }
+}
+
+
 /* Body and main settings */
 body {
   font-family: Arial, sans-serif;
@@ -22,11 +34,12 @@ body {
   color: #fff;
 }
 
-/* Brand Styling */
+/* Brand Styling 
 .brand {
   display: flex;
   align-items: center;
 }
+*/
 
 /* Logo Styling */
 .logo {
@@ -61,9 +74,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.header-section nav ul li a:hover {
-  background-color: #555;
-}
 
 /* Navigation styles */
 .nav {
@@ -78,26 +88,16 @@ body {
   margin: 0 15px;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: #333;
-  padding: 10px 15px;
-  display: inline-block;
-}
-
-.nav-link:hover {
-  background-color: #09c218; /* Highlight on hover */
-}
 
 /* Dropdown Menu Styling */
 .nav-item .dropdown-menu {
 display: none; /* Keeps the dropdowns hidden by default */
 position: absolute;
-background-color: #4CAF50; /* Green background color */
-color: white; /* Text color */
+background-color: #fff; /* Green background color */
+color: rgb(14, 13, 13); /* Text color */
 padding: 10px;
 box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-border-radius: 5px;
+border-radius: 10px;
 z-index: 1;
 }
 
@@ -108,20 +108,16 @@ display: block;
 
 /* General Dropdown Item Styling */
 .dropdown-menu .dropdown-item {
-color: white; /* Text color */
+color: rgb(8, 8, 8); /* Text color */
 padding: 8px 15px;
 text-decoration: none;
 display: block;
 }
 
-.dropdown-menu .dropdown-item:hover {
-background-color: #3E8E41; /* Darker green on hover */
-}
 
 /* Style for Sign In button specifically */
 .dropdown-menu .signin-button {
-background-color: #007bff; /* Blue background for Sign In */
-color: white;
+background-color: #045c2c; /* Blue background for Sign In */
 padding: 8px 15px;
 border-radius: 5px;
 display: block; /* Ensures it aligns with other dropdown items */
@@ -131,7 +127,7 @@ text-decoration: none;
 }
 
 .dropdown-menu .signin-button:hover {
-background-color: #0056b3; /* Darker blue on hover */
+background-color: #045c2c; /* Darker green on hover */
 }
 
 /* Additional styling for icons inside dropdown items */
@@ -187,9 +183,6 @@ main {
   justify-content: center; /* Center icon horizontally */
 }
 
-.search-button:hover {
-  background-color: #0056b3; /* Darker background on hover */
-}
 
 .social-media-container {
   display: flex; /* Use flexbox for layout */
@@ -204,7 +197,7 @@ main {
 }
 
 .social-icon:hover {
-  color: #0056b3; /* Color on hover */
+  color: #e64545; /* Color on hover */
 }
 
 .language-button {
@@ -220,7 +213,7 @@ main {
 }
 
 .language-button:hover {
-  background-color: #0056b3; /* Darker color on hover */
+  background-color: #e64545 /* Darker color on hover */
 }
 
 

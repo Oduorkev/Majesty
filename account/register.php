@@ -28,19 +28,19 @@ session_start();
         </div>
         <nav>
             <ul class="nav">
-                <li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="../index.php" class="nav-link active">Home</a></li>
                 <li class="nav-item dropdown">
                     <a href="services.php" class="nav-link" id="servicesDropdown">
                         Services
                     </a>
                     <div class="dropdown-menu" id="servicesDropdownContent">
-                        <a href="electrical_products.php" class="dropdown-item">Electrical Products</a>
-                        <a href="header/outdoor-ligthing.php" class="dropdown-item">Outdoor Lighting</a>
-                        <a href="header/indoor-ligthing.php" class="dropdown-item">Indoor Lighting</a>
-                        <a href="header/wiring-and-instalations.php" class="dropdown-item">Wiring and Installations</a>
-                        <a href="header/solarsystems.php" class="dropdown-item">Solar Systems</a>
-                        <a href="header/Security-systems.php" class="dropdown-item">Security Systems</a>
-                        <a href="header/heavy-machinery.php" class="dropdown-item">Heavy Machinery</a>
+                        <a href="../services/electrical_products.php" class="dropdown-item">Electrical Products</a>
+                        <a href="../services/outdoor_lighting.php" class="dropdown-item">Outdoor Lighting</a>
+                        <a href="../services/indoor_lighting.php" class="dropdown-item">Indoor Lighting</a>
+                        <a href="../services/wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
+                        <a href="../services/solar_systems.php" class="dropdown-item">Solar Systems</a>
+                        <a href="../services/security_systems.php" class="dropdown-item">Security Systems</a>
+                        <a href="../services/heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
                     </div>
                 </li>
 
@@ -49,14 +49,14 @@ session_start();
                         <i class="far fa-question-circle fa-lg"></i> Help
                     </a>
                     <div class="dropdown-menu" id="helpDropdownContent">
-                        <a href="faq.php" class="dropdown-item">FAQ</a>
-                        <a href="support.php" class="dropdown-item">Support</a>
-                        <a href="contactus.php" class="dropdown-item">Contact Us</a>
+                        <a href="../faq.php" class="dropdown-item">FAQ</a>
+                        <a href="../support.php" class="dropdown-item">Support</a>
+                        <a href="../contactus.php" class="dropdown-item">Contact Us</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a href="cart.php" class="nav-link">
+                    <a href="../cart.php" class="nav-link">
                         <i class="fas fa-shopping-cart fa-lg"></i> Cart
                     </a>
                 </li>
@@ -70,7 +70,7 @@ session_start();
                         <a href="myaccount.php" class="dropdown-item">
                             <i class="fas fa-user-circle"></i> My Account
                         </a>
-                        <a href="orders.php" class="dropdown-item">
+                        <a href="../orders.php" class="dropdown-item">
                             <i class="fas fa-box"></i> Orders
                         </a>
                         <a href="saved-items.php" class="dropdown-item">
@@ -85,7 +85,7 @@ session_start();
 
 <div class="search-social-container">
     <div class="search-container">
-        <form action="search.php" method="GET" class="search-form">
+        <form action="../search.php" method="GET" class="search-form">
             <input type="text" name="query" placeholder="What are you looking for?" class="search-input" required>
             <button type="submit" class="search-button"><i class="fas fa-search"></i></button>
         </form>
@@ -148,29 +148,29 @@ session_start();
         <div class="footer-section about-us">
             <h3>About Us</h3>
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="locations.php">Our Locations</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../about.php">About Us</a></li>
+                <li><a href="../locations.php">Our Locations</a></li>
             </ul>
         </div>
         <div class="footer-section services">
             <h3>Services</h3>
             <ul>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="support.php">Support</a></li>
-                <li><a href="warranty.php">Warranty Policy</a></li>
-                <li><a href="delivery.php">Delivery</a></li>
-                <li><a href="privacy.php">Privacy Policy</a></li>
-                <li><a href="cookie.php">Cookie Policy</a></li>
-                <li><a href="shipping.php">Shipping Policy</a></li>
+                <li><a href="../about.php">About Us</a></li>
+                <li><a href="../support.php">Support</a></li>
+                <li><a href="../warranty.php">Warranty Policy</a></li>
+                <li><a href="../delivery.php">Delivery</a></li>
+                <li><a href="../privacy.php">Privacy Policy</a></li>
+                <li><a href="../cookie.php">Cookie Policy</a></li>
+                <li><a href="../shipping.php">Shipping Policy</a></li>
             </ul>
         </div>
         <div class="footer-section support">
             <h3>Support</h3>
             <ul>
-                <li><a href="search.php">Search</a></li>
-                <li><a href="terms.php">Terms of Service</a></li>
-                <li><a href="return.php">Return Policy</a></li>
+                <li><a href="../search.php">Search</a></li>
+                <li><a href="../terms.php">Terms of Service</a></li>
+                <li><a href="../return.php">Return Policy</a></li>
             </ul>
         </div>
         <div class="footer-section newsletter">
