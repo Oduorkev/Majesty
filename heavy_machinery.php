@@ -16,7 +16,7 @@
     <div class="header-section">
         <div class="brand">
             <a href="index.php"><img src="assets/img/logo.png" class="logo" alt="logo"></a>
-            <a href="index.php" class="nav-brand">MAJESTY ELECTRICALS</a>
+            <a href="index.php" class="nav-brand">MAJESTY_ELECTRICALS</a>
         </div>
         <nav>
             <ul class="nav">
