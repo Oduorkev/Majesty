@@ -28,10 +28,10 @@
                     <div class="dropdown-menu" id="servicesDropdownContent">
                         <a href="electrical_products.php" class="dropdown-item">Electrical Products</a>
                         <a href="outdoor_lighting.php" class="dropdown-item">Outdoor Lighting</a>
-                        <a href="" class="dropdown-item">Indoor Lighting</a>
-                        <a href="wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
+                        <a href="indoor_lighting.php" class="dropdown-item">Indoor Lighting</a>
+                        <a href="" class="dropdown-item">Wiring and Installations</a>
                         <a href="solar_systems.php" class="dropdown-item">Solar Systems</a>
-                        <a href="Security_systems.php" class="dropdown-item">Security Systems</a>
+                        <a href="security_systems.php" class="dropdown-item">Security Systems</a>
                         <a href="heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
                     </div>
                 </li>
