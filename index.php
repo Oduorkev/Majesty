@@ -34,12 +34,12 @@ $isLoggedIn = isset($_SESSION['user_id']);
                     </a>
                     <div class="dropdown-menu" id="servicesDropdownContent">
                         <a href="electrical_products.php" class="dropdown-item">Electrical Products</a>
-                        <a href="header/outdoor-ligthing.php" class="dropdown-item">Outdoor Lighting</a>
-                        <a href="header/indoor-ligthing.php" class="dropdown-item">Indoor Lighting</a>
-                        <a href="header/wiring-and-instalations.php" class="dropdown-item">Wiring and Installations</a>
-                        <a href="header/solarsystems.php" class="dropdown-item">Solar Systems</a>
-                        <a href="header/Security-systems.php" class="dropdown-item">Security Systems</a>
-                        <a href="header/heavy-machinery.php" class="dropdown-item">Heavy Machinery</a>
+                        <a href="outdoor_ligthing.php" class="dropdown-item">Outdoor Lighting</a>
+                        <a href="indoor_ligthing.php" class="dropdown-item">Indoor Lighting</a>
+                        <a href="wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
+                        <a href="solarsystems.php" class="dropdown-item">Solar Systems</a>
+                        <a href="security_systems.php" class="dropdown-item">Security Systems</a>
+                        <a href="heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
                     </div>
                 </li>
 
@@ -112,7 +112,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
     <div class="product-card">
         <img src="path-to-product-image-1.jpg" alt="Product 1" class="product-image">
         <h3 class="product-title">Product 1</h3>
-        <p class="product-description">This is a brief description of Product 1 highlighting its features.</p>
+        <p class="product-description">brief description of Product 1 highlighting its features.</p>
         <p class="product-price">$29.99</p>
         <button class="like-button" onclick="toggleLike(this)">
             <i class="far fa-heart"></i>
@@ -123,7 +123,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
     <div class="product-card">
         <img src="path-to-product-image-2.jpg" alt="Product 2" class="product-image">
         <h3 class="product-title">Product 2</h3>
-        <p class="product-description">This is a brief description of Product 2 highlighting its features.</p>
+        <p class="product-description">T features.</p>
         <p class="product-price">$39.99</p>
         <button class="like-button" onclick="toggleLike(this)">
             <i class="far fa-heart"></i>
