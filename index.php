@@ -123,7 +123,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
     <div class="product-card">
         <img src="path-to-product-image-2.jpg" alt="Product 2" class="product-image">
         <h3 class="product-title">Product 2</h3>
-        <p class="product-description">This is a brief description of Product 2 highlighting its features.</p>
+        <p class="product-description">T features.</p>
         <p class="product-price">$39.99</p>
         <button class="like-button" onclick="toggleLike(this)">
             <i class="far fa-heart"></i>
