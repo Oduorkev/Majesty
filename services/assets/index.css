@@ -97,7 +97,9 @@ body {
   display: inline-block;
 }
 
-
+.nav-link:hover {
+  background-color: #e64545; /* Highlight on hover */
+}
 
 /* Dropdown Menu Styling */
 .nav-item .dropdown-menu {
@@ -124,6 +126,9 @@ text-decoration: none;
 display: block;
 }
 
+.dropdown-menu .dropdown-item:hover {
+background-color: #3E8E41; /* Darker green on hover */
+}
 
 /* Style for Sign In button specifically */
 .dropdown-menu .signin-button {
@@ -194,6 +199,9 @@ main {
   justify-content: center; /* Center icon horizontally */
 }
 
+.search-button:hover {
+  background-color: #e64545; /* Darker background on hover */
+}
 
 .social-media-container {
   display: flex; /* Use flexbox for layout */
@@ -224,7 +232,7 @@ main {
 }
 
 .language-button:hover {
-  background-color: #e64545 /* Darker color on hover */
+  background-color: #e64545; /* Darker color on hover */
 }
 
 
@@ -416,7 +424,7 @@ footer {
 }
 
 .register-container button[type="submit"]:hover {
-  background-color: #45a049;
+  background-color: #e64545;
 }
 
 /* Login Link */

@@ -16,23 +16,23 @@
     <div class="header-section">
         <div class="brand">
             <a href="index.php"><img src="assets/img/logo.png" class="logo" alt="logo"></a>
-            <a href="index.php" class="nav-brand">MAJESTY ELECTRICALS</a>
+            <a href="index.php" class="nav-brand">MAJESTY_ELECTRICALS</a>
         </div>
         <nav>
             <ul class="nav">
-                <li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="../index.php" class="nav-link active">Home</a></li>
                 <li class="nav-item dropdown">
                     <a href="services.php" class="nav-link" id="servicesDropdown">
-                        Services
+                        Collections
                     </a>
                     <div class="dropdown-menu" id="servicesDropdownContent">
-                        <a href="#" class="dropdown-item">Electrical Products</a>
+                        <a href="electrical_products.php" class="dropdown-item">Electrical Products</a>
                         <a href="outdoor_lighting.php" class="dropdown-item">Outdoor Lighting</a>
                         <a href="indoor_lighting.php" class="dropdown-item">Indoor Lighting</a>
                         <a href="wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
                         <a href="solar_systems.php" class="dropdown-item">Solar Systems</a>
                         <a href="security_systems.php" class="dropdown-item">Security Systems</a>
-                        <a href="heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
+                        <a href="" class="dropdown-item">Heavy Machinery</a>
                     </div>
                 </li>
 
@@ -152,21 +152,21 @@
         <div class="footer-section services">
             <h3>Services</h3>
             <ul>
-                <li><a href="about.php">About Us</a></li>
-                <li><a href="support.php">Support</a></li>
-                <li><a href="warranty.php">Warranty Policy</a></li>
-                <li><a href="delivery.php">Delivery</a></li>
-                <li><a href="privacy.php">Privacy Policy</a></li>
-                <li><a href="cookie.php">Cookie Policy</a></li>
-                <li><a href="shipping.php">Shipping Policy</a></li>
+                <li><a href="../about.php">About Us</a></li>
+                <li><a href="../support.php">Support</a></li>
+                <li><a href="../warranty.php">Warranty Policy</a></li>
+                <li><a href="../delivery.php">Delivery</a></li>
+                <li><a href="../privacy.php">Privacy Policy</a></li>
+                <li><a href="../cookie.php">Cookie Policy</a></li>
+                <li><a href="../shipping.php">Shipping Policy</a></li>
             </ul>
         </div>
         <div class="footer-section support">
             <h3>Support</h3>
             <ul>
-                <li><a href="search.php">Search</a></li>
-                <li><a href="terms.php">Terms of Service</a></li>
-                <li><a href="return.php">Return Policy</a></li>
+                <li><a href="../search.php">Search</a></li>
+                <li><a href="../terms_of_service.php">Terms of Service</a></li>
+                <li><a href="../return.php">Return Policy</a></li>
             </ul>
         </div>
         <div class="footer-section newsletter">

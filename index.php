@@ -10,6 +10,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Majesty Electricals</title>
     <link rel="stylesheet" href="assets/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -29,17 +30,16 @@ $isLoggedIn = isset($_SESSION['user_id']);
             <ul class="nav">
                 <li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
                 <li class="nav-item dropdown">
-                    <a href="services.php" class="nav-link" id="servicesDropdown">
-                        Services
-                    </a>
+                    <a href="" class="nav-link" id="servicesDropdown">
+                        Collections
                     <div class="dropdown-menu" id="servicesDropdownContent">
-                        <a href="electrical_products.php" class="dropdown-item">Electrical Products</a>
-                        <a href="outdoor_ligthing.php" class="dropdown-item">Outdoor Lighting</a>
-                        <a href="indoor_ligthing.php" class="dropdown-item">Indoor Lighting</a>
-                        <a href="wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
-                        <a href="solarsystems.php" class="dropdown-item">Solar Systems</a>
-                        <a href="security_systems.php" class="dropdown-item">Security Systems</a>
-                        <a href="heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
+                        <a href="services/electrical_products.php" class="dropdown-item">Electrical Products</a>
+                        <a href="services/outdoor_lighting.php" class="dropdown-item">Outdoor Lighting</a>
+                        <a href="services/indoor_lighting.php" class="dropdown-item">Indoor Lighting</a>
+                        <a href="services/wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
+                        <a href="services/solar_systems.php" class="dropdown-item">Solar Systems</a>
+                        <a href="services/security_systems.php" class="dropdown-item">Security Systems</a>
+                        <a href="services/heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
                     </div>
                 </li>
 
@@ -65,7 +65,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
                         <i class="fas fa-user fa-lg"></i> My Account
                     </a>
                     <div class="dropdown-menu" id="accountDropdownContent">
-                        <a href="login.php" class="dropdown-item signin-button">Sign In</a>
+                        <a href="account/login.php" class="dropdown-item signin-button">Sign In</a>
                         <a href="myaccount.php" class="dropdown-item">
                             <i class="fas fa-user-circle"></i> My Account
                         </a>
@@ -172,7 +172,7 @@ $isLoggedIn = isset($_SESSION['user_id']);
             <h3>Support</h3>
             <ul>
                 <li><a href="search.php">Search</a></li>
-                <li><a href="terms.php">Terms of Service</a></li>
+                <li><a href="terms_of_service.php">Terms of Service</a></li>
                 <li><a href="return.php">Return Policy</a></li>
             </ul>
         </div>

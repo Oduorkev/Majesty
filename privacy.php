@@ -1,7 +1,15 @@
+<?php
+session_start(); // Start session to access session variables
+
+// Check if the user is logged in by seeing if 'user_id' is set in the session
+$isLoggedIn = isset($_SESSION['user_id']);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Majesty Electricals</title>
     <link rel="stylesheet" href="assets/index.css">
@@ -22,17 +30,17 @@
             <ul class="nav">
                 <li class="nav-item"><a href="index.php" class="nav-link active">Home</a></li>
                 <li class="nav-item dropdown">
-                    <a href="services.php" class="nav-link" id="servicesDropdown">
+                    <a href="" class="nav-link" id="servicesDropdown">
                         Services
                     </a>
                     <div class="dropdown-menu" id="servicesDropdownContent">
-                        <a href="electrical_products.php" class="dropdown-item">Electrical Products</a>
-                        <a href="outdoor_lighting.php" class="dropdown-item">Outdoor Lighting</a>
-                        <a href="indoor_lighting.php" class="dropdown-item">Indoor Lighting</a>
-                        <a href="wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
-                        <a href="" class="dropdown-item">Solar Systems</a>
-                        <a href="security_systems.php" class="dropdown-item">Security Systems</a>
-                        <a href="heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
+                        <a href="services/electrical_products.php" class="dropdown-item">Electrical Products</a>
+                        <a href="services/outdoor_lighting.php" class="dropdown-item">Outdoor Lighting</a>
+                        <a href="services/indoor_lighting.php" class="dropdown-item">Indoor Lighting</a>
+                        <a href="services/wiring_and_instalations.php" class="dropdown-item">Wiring and Installations</a>
+                        <a href="services/solar_systems.php" class="dropdown-item">Solar Systems</a>
+                        <a href="services/security_systems.php" class="dropdown-item">Security Systems</a>
+                        <a href="services/heavy_machinery.php" class="dropdown-item">Heavy Machinery</a>
                     </div>
                 </li>
 
@@ -54,11 +62,11 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a href="account/myaccount.php" class="nav-link" id="accountDropdown">
+                    <a href="account.php" class="nav-link" id="accountDropdown">
                         <i class="fas fa-user fa-lg"></i> My Account
                     </a>
                     <div class="dropdown-menu" id="accountDropdownContent">
-                        <a href="signin.php" class="dropdown-item signin-button">Sign In</a>
+                        <a href="account/login.php" class="dropdown-item signin-button">Sign In</a>
                         <a href="myaccount.php" class="dropdown-item">
                             <i class="fas fa-user-circle"></i> My Account
                         </a>
@@ -101,43 +109,11 @@
     </div>
 </div>
 
-<div class="product-cards-container">
-    <div class="product-card">
-        <img src="path-to-product-image-1.jpg" alt="Product 1" class="product-image">
-        <h3 class="product-title">Product 1</h3>
-        <p class="product-description">This is a brief description of Product 1 highlighting its features.</p>
-        <p class="product-price">$29.99</p>
-        <button class="like-button" onclick="toggleLike(this)">
-            <i class="far fa-heart"></i>
-        </button>
-        <button class="add-to-cart">Add to Cart</button>
-    </div>
 
-    <div class="product-card">
-        <img src="path-to-product-image-2.jpg" alt="Product 2" class="product-image">
-        <h3 class="product-title">Product 2</h3>
-        <p class="product-description">This is a brief description of Product 2 highlighting its features.</p>
-        <p class="product-price">$39.99</p>
-        <button class="like-button" onclick="toggleLike(this)">
-            <i class="far fa-heart"></i>
-        </button>
-        <button class="add-to-cart">Add to Cart</button>
-    </div>
 
-    <div class="product-card">
-        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
-        <h3 class="product-title">Product 3</h3>
-        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
-        <p class="product-price">$49.99</p>
-        <button class="like-button" onclick="toggleLike(this)">
-            <i class="far fa-heart"></i>
-        </button>
-        <button class="add-to-cart">Add to Cart</button>
-    </div>
 
-    <!-- More product cards as needed -->
 
-</div>
+
 
 <footer>
     <div class="footer-container">
