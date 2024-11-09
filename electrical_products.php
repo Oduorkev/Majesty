@@ -134,6 +134,176 @@
         </button>
         <button class="add-to-cart">Add to Cart</button>
     </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="path-to-product-image-3.jpg" alt="Product 3" class="product-image">
+        <h3 class="product-title">Product 3</h3>
+        <p class="product-description">This is a brief description of Product 3 highlighting its features.</p>
+        <p class="product-price">$49.99</p>
+        <button class="like-button" onclick="toggleLike(this)">
+            <i class="far fa-heart"></i>
+        </button>
+        <button class="add-to-cart">Add to Cart</button>
+    </div>
 
     <!-- More product cards as needed -->
 
